@@ -1,7 +1,4 @@
 #!/usr/bin/python
-import unicornhathd as sense
+import unicornhathd
 
-
-#sense = SenseHat()
-#sense.brightness(1)
-sense.off()
+unicornhathd.off()
