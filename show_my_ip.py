@@ -62,5 +62,5 @@ def scroll_text(in_txt):
 if __name__ == '__main__':
     width, height = unicornhathd.get_shape()  # 16, 16 by default
     my_ip = get_ip()
-
     scroll_text(my_ip)
+
