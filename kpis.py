@@ -47,39 +47,37 @@ for i in ret2.items:
 
 #banner
 
-unicornhathd.set_pixel(0,15,128,128,128) #k
-unicornhathd.set_pixel(0,14,128,128,128)
-unicornhathd.set_pixel(0,13,128,128,128)
-unicornhathd.set_pixel(0,12,128,128,128)
-unicornhathd.set_pixel(0,11,128,128,128)
-unicornhathd.set_pixel(1,13,128,128,128)
-unicornhathd.set_pixel(2,15,128,128,128)
-unicornhathd.set_pixel(2,14,128,128,128)
-unicornhathd.set_pixel(2,12,128,128,128)
-unicornhathd.set_pixel(2,11,128,128,128)
+#unicornhathd.set_pixel(0,15,128,128,128) #k
+#unicornhathd.set_pixel(0,14,128,128,128)
+#unicornhathd.set_pixel(0,13,128,128,128)
+#unicornhathd.set_pixel(0,12,128,128,128)
+#unicornhathd.set_pixel(0,11,128,128,128)
+#unicornhathd.set_pixel(1,13,128,128,128)
+#unicornhathd.set_pixel(2,15,128,128,128)
+#unicornhathd.set_pixel(2,14,128,128,128)
+#unicornhathd.set_pixel(2,12,128,128,128)
+#unicornhathd.set_pixel(2,11,128,128,128)
 
-unicornhathd.set_pixel(5,15,128,128,128) #pi
-unicornhathd.set_pixel(5,14,128,128,128)
-unicornhathd.set_pixel(5,13,128,128,128)
-unicornhathd.set_pixel(5,12,128,128,128)
-unicornhathd.set_pixel(5,11,128,128,128)
-unicornhathd.set_pixel(6,15,128,128,128)
-unicornhathd.set_pixel(7,15,128,128,128)
-unicornhathd.set_pixel(7,14,128,128,128)
-unicornhathd.set_pixel(7,13,128,128,128)
-unicornhathd.set_pixel(7,12,128,128,128)
-unicornhathd.set_pixel(7,11,100,100,100)
-unicornhathd.set_pixel(4,15,128,128,128)
-unicornhathd.set_pixel(8,15,128,128,128)
+#unicornhathd.set_pixel(5,15,128,128,128) #pi
+#unicornhathd.set_pixel(5,14,128,128,128)
+#unicornhathd.set_pixel(5,13,128,128,128)
+#unicornhathd.set_pixel(5,12,128,128,128)
+#unicornhathd.set_pixel(5,11,128,128,128)
+#unicornhathd.set_pixel(6,15,128,128,128)
+#unicornhathd.set_pixel(7,15,128,128,128)
+#unicornhathd.set_pixel(7,14,128,128,128)
+#unicornhathd.set_pixel(7,13,128,128,128)
+#unicornhathd.set_pixel(7,12,128,128,128)
+#unicornhathd.set_pixel(7,11,100,100,100)
+#unicornhathd.set_pixel(4,15,128,128,128)
+#unicornhathd.set_pixel(8,15,128,128,128)
 
-unicornhathd.set_pixel(10,14,128,128,128) #s
-unicornhathd.set_pixel(10,11,128,128,128)
-unicornhathd.set_pixel(11,15,128,128,128)
-unicornhathd.set_pixel(11,13,128,128,128)
-unicornhathd.set_pixel(11,11,128,128,128)
-unicornhathd.set_pixel(12,15,128,128,128)
-unicornhathd.set_pixel(12,12,128,128,128)
-
-
+#unicornhathd.set_pixel(10,14,128,128,128) #s
+#unicornhathd.set_pixel(10,11,128,128,128)
+#unicornhathd.set_pixel(11,15,128,128,128)
+#unicornhathd.set_pixel(11,13,128,128,128)
+#unicornhathd.set_pixel(11,11,128,128,128)
+#unicornhathd.set_pixel(12,15,128,128,128)
+#unicornhathd.set_pixel(12,12,128,128,128)
 
 unicornhathd.show()
