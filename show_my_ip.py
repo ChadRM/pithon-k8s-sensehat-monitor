@@ -17,8 +17,8 @@ def get_ip():
     my_ip = s.getsockname()[0]
     print(my_ip)
     s.close()
-    return my_ip
-
+#    return my_ip
+    return '255.255.255.255'
 
 def create_image_from_text(in_text):
     colours = (255, 255, 250)
@@ -35,7 +35,7 @@ def create_image_from_text(in_text):
 
     image = Image.new('RGB', (text_width, text_height), (0, 0, 0))
     draw = ImageDraw.Draw(image)
-    draw.text((text_x, text_y), my_ip, colours, font=font)
+    draw.text((text_x, text_y), in_text, colours, font=font)
     return (image, text_width)
 
 
@@ -50,6 +50,8 @@ def scroll_txt(image, text_width):
                 unicornhathd.set_pixel(width - 1 - x, y, r, g, b)
         unicornhathd.show()
         time.sleep(0.02)
+        print(scroll)
+        print(text_width)
     unicornhathd.off()
 
 
