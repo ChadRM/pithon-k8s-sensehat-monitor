@@ -57,6 +57,8 @@ text_height = max(text_height, h, 16)  # no more than the size of the unico$
 image = Image.new('RGB', (text_width, text_height), (0, 0, 0))
 draw = ImageDraw.Draw(image)
 draw.text((text_x, text_y), my_ip, colors, font=font)
+# Also, remember that this only creates the base image
+# The function finds the appropriate pixel to map to the display
 # this is great, but to map to the screen... ugh...
 # image is:
 #
