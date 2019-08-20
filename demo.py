@@ -57,20 +57,6 @@ text_height = max(text_height, h, 16)  # no more than the size of the unico$
 image = Image.new('RGB', (text_width, text_height), (0, 0, 0))
 draw = ImageDraw.Draw(image)
 draw.text((text_x, text_y), my_ip, colors, font=font)
-# Also, remember that this only creates the base image
-# The function finds the appropriate pixel to map to the display
-# this is great, but to map to the screen... ugh...
-# image is:
-#
-#  123
-#  456
-#  789
-#
-# I need:
-#
-#  147
-#  258
-#  369
 
 def gradient(x, y, step):
     g = x * 16
@@ -220,12 +206,12 @@ def show_IP(x, y, step):
      if showing_ip == False:
           showing_ip = True
           ip_start_at = step
-     if (int((step - ip_start_at)/2) + x) >= text_width:
+     if (int((step - ip_start_at)/3.5) + y) >= text_width:
          ip_start_at = step
-         scroll_loc = x
+         scroll_loc = y
      else:
-         scroll_loc = (int((step - ip_start_at)/2) + x)
-     pixel = image.getpixel((scroll_loc, y))
+         scroll_loc = (int((step - ip_start_at)/3.5) + y)
+     pixel = image.getpixel((scroll_loc, x))
      r, g, b = [int(n) for n in pixel]
      return (r, g, b)
 
